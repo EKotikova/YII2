@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px/1.55 Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align: left;
+}
+
+input, select, textarea {
+    font: 14px/1.55 Arial, Helvetica, sans-serif;
+}
+
+.submitbutton {
+    background-color: #3d5a80;
+    border: medium none;
+    color: #FFFFFF!important;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 6px;
+    margin: 20px 0;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 0.9em;
+    margin-left: 10px;
+    background: url('/backend/web/images/congress6/') no-repeat center center;
+}
+
+.title {
+    font-size: 1.4em;
+    margin: 40px 0;
+}
+
+.admin {
+    width: 360px;
+    margin: 10% auto 0;
+}
+
+.admin .row {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.admin .form-label {
+    float: left;
+    width: 25%;
+}
+
+.admin .form-element {
+    float: right;
+    width: 74%;
+    margin-right: 1%;
+}
+
+.admin .rememberMe, 
+.admin .rememberMe .form-element,
+.admin .rememberMe .form-label {
+    width: auto;
+}
+
+.admin .rememberMe .form-label {
+    float: right;
+}
+
+.admin .form-element input[type='checkbox'] {
+    width: auto;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.admin input {
+    width: 100%;
+}
+
+.admin #link-forgot-psw {
+    float: right;
+    font-style: italic;
+}
+
+.admin #link-forgot-psw a {
+    text-decoration: none;
+    color: red;
+    font-size: 0.9em;
+}
+
+.admin.forgot-psw {
+    margin: 10px auto 0;
+}
+
+.admin.forgot-psw .row input,
+.admin.reset .row input {
+    width: 98%;
+    margin-right: 1%;
+    padding-left: 1%;
+}
+
+#msg span {
+    display: block;
+    color: #ff0000;
+}
+
